@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en"></html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/main.css">
+    <style type="text/tailwindcss">
+        @layer utilities {
+            .content-auto {
+                content-visibility: auto;
+            }
+        }
+    </style>
+</head>
+<body class="site-body overflow-x-hidden">
+    <div class="flex space-x-5 p-10 ">
+        <div class="h-[600px] relative wrapper-list w-[33%]  ">
+            <img class="phone-img overflow-y-hidden" src="./images/—Pngtree—iphone 14 mockup with transparent_8621360.png" alt="" width="340px" height="200px">
+            <div class="absolute overflow-y-auto top-2 bottom-10 left-3 right-0 w-[318px] h-[570px] rounded-[55px] bg-slate-800">
+                <h2 class="title text-center text-[25px] font-bold mb-[20px] bg-white">User List</h2>
+                <ul class="user-lists space-y-5 "></ul>
+            </div>
+        </div>
+        <div class="h-[600px] relative wrapper-list w-[33%] ">
+            <img class="phone-img overflow-y-hidden" src="./images/—Pngtree—iphone 14 mockup with transparent_8621360.png" alt="" width="340px" height="200px">
+            <div class="absolute overflow-y-auto top-2 bottom-10 left-3 right-0 w-[318px] h-[570px] rounded-[55px] bg-slate-800">
+                <h2 class="title text-center text-[25px] font-bold mb-[20px] bg-white">Post List</h2>
+                <ul class="posts-list space-y-5"></ul>
+            </div>
+        </div>
+        <div class="h-[600px] relative wrapper-list w-[33%] ">
+            <img class="phone-img overflow-y-hidden" src="./images/—Pngtree—iphone 14 mockup with transparent_8621360.png" alt="" width="340px" height="200px">
+            <div class="absolute overflow-y-auto top-2 bottom-10 left-3 right-0 w-[318px] h-[570px] rounded-[55px] bg-slate-800">
+                <h2 class="title text-center text-[25px] font-bold mb-[20px] bg-white">Comments List</h2>
+                <ul class="comments-list space-y-5"></ul>
+            </div>
+        </div>
+    </div>
+    
+    
+    
+    <script src="./js/main.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        clifford: '#da373d',
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+</body>
+</html>

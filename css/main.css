@@ -1,0 +1,17 @@
+.site-body {
+    background-image: url(../images/telegram-bg.png);
+    background-repeat: no-repeat;
+    background-size: 100vmax;
+}
+
+.title {
+    border-radius: 57px 60px 0 0 ;
+}
+
+.user-list {
+    border-radius: 20px 20px 20px 0.3px;
+}
+
+::-webkit-scrollbar{
+    display: none;
+}
